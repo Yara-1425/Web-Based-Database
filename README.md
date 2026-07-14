@@ -8,11 +8,10 @@ A comprehensive web system for registering user data and storing it in a MySQL d
 * **Database**: MySQL
 
 ## Project Interface
-| Registration Form | Data Display Table |
-| :---: | :---: |
-| (<img width="563" height="478" alt="image" src="https://github.com/user-attachments/assets/28f60a77-cd3a-4dab-b45f-8736258f44d5" />)
- | (<img width="1671" height="533" alt="image" src="https://github.com/user-attachments/assets/a9184206-9230-44bb-a024-9a4b38264c8c" />)
- |
+- Registration Form
+   <img width="563" height="478" alt="image" src="https://github.com/user-attachments/assets/28f60a77-cd3a-4dab-b45f-8736258f44d5" />
+- Data Display Table
+   <img width="1671" height="533" alt="image" src="https://github.com/user-attachments/assets/a9184206-9230-44bb-a024-9a4b38264c8c" />
 
 ##  Project Structure
 * `connect.html`: Contains the data input form.
