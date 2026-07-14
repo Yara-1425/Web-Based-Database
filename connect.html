@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9; 
+  }
+  
+  
+  form {
+    background-color: #163225; 
+    padding: 30px;
+    border-radius: 10px;
+    color: #FFB4B4; 
+    width: 300px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #FFB4B4;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FFB4B4; 
+    color: #163225; 
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<form action="/in_page.php" method="get">
+  <h2>Enter your data</h2>
+  
+  <label for="idname">name:</label>
+  <input type="text" id="idname" name="name" placeholder="Enter your name">
+  
+  <label for="idage">age:</label>
+  <input type="text" id="idage" name="age" placeholder="enter your age">
+  
+  <input type="submit" value="submet">
+</form> 
+
+</body>
+</html>
