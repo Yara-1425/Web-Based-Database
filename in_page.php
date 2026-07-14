@@ -1,8 +1,8 @@
 <?php
-$servername = "sql106.infinityfree.com";
-$username = "if0_42361818";
-$password = "Ymb123456";
-$dbname = "if0_42361818_firstsql";
+$servername = "#####";
+$username = "#####";
+$password = "#####";
+$dbname = "#####";
 $name = $_GET['name'];
 $age = $_GET['age'];
 
